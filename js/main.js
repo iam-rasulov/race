@@ -44,9 +44,9 @@ record.lang = "en-US"
 
 var audio = document.querySelector(".audio");
 
-elBtnRec.addEventListener("click", function(){
-  audio.play()
-})
+// elBtnRec.addEventListener("click", function(){
+//   audio.play()
+// })
 
 record.onresult = function(evt){
 
@@ -78,6 +78,7 @@ var audio4 = document.querySelector(".audio4");
 
     if(command == "start"){
 
+      audio.play()
       audio2.play()
       
       plane.classList.toggle("d-plane")
