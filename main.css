@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 4s ease;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 680px;
+    position: relative;
+    background-image: url(./pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-rec{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 25px;
+    color: white;
+    background-color: darkcyan;
+}
+
+.plane{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    z-index: 0;
+    top: 30px;
+    left: -300px;
+}
+ .d-plane{
+     top: 0;
+    left: 1880px;
+ }
+
+.finish{
+    width: 600px;
+    height: 620px;
+    position: absolute;
+    z-index: 3;
+    top: 200px;
+    left: 50px;
+}
+
+.car{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    z-index: 6;
+    top: 530px;
+    right: -280px;
+}
+
+.car2{
+    width: 450px;
+    height: 220px;
+    position: absolute;
+    z-index: 5;
+    top: 470px;
+    right: -280px;
+}
+
+.car3{
+    width: 400px;
+    height: 180px;
+    position: absolute;
+    z-index: 4;
+    top: 450px;
+    right: -200px;
+    
+}
+
+.car4{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    z-index: 3;
+    top: 440px;
+    right: -155px;
+}
+
+.car5{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    z-index: 3;
+    top: 530px;
+    right: -955px;
+}
+
+
+.car6{
+    width: 450px;
+    height: 220px;
+    position: absolute;
+    z-index: 3;
+    top: 470px;
+    right: -880px;
+}
+
+
+.car7{
+    width: 400px;
+    height: 180px;
+    position: absolute;
+    z-index: 3;
+    top: 450px;
+    right: -820px;
+}
+
+
+.car8{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    z-index: 3;
+    top: 440px;
+    right: -755px;
+}
+
+
+.d-block{
+    display: block;
+    right: 2500px;
+    top: 530px;
+    width: 320px;
+    height: 120px;
+}
+.d-block2{
+    display: block;
+    right: 2550px;
+    top: 510px;
+    width: 320px;
+    height: 120px;
+}
+.d-block3{
+    display: block;
+    right: 2600px;
+    top: 490px;
+    width: 320px;
+    height: 120px;
+}
+.d-block4{
+    display: block;
+    right: 2650px;
+    top: 470px;
+    width: 320px;
+    height: 120px;
+}
+.d-block5{
+    display: block;
+    right: 2500px;
+    top: 530px;
+    width: 320px;
+    height: 120px;
+}
+.d-block6{
+    display: block;
+    right: 2550px;
+    top: 490px;
+    width: 320px;
+    height: 120px;
+}
+.d-block7{
+    display: block;
+    right: 2300px;
+    top: 480px;
+    width: 320px;
+    height: 120px;
+}
+.d-block8{
+    display: block;
+    right: 2350px;
+    top: 470px;
+    width: 320px;
+    height: 120px;
+}
