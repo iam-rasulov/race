@@ -76,6 +76,15 @@ var audio4 = document.querySelector(".audio4");
 // audio.play();
 
 
+
+    // if(command == "night"){
+    //   body.classList.add("dark")
+    // }
+
+    // if(command == "day"){
+    //   body.classList.remove("dark")
+    // }
+
     if(command == "start"){
 
       audio.play()
