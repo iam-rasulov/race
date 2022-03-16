@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all 4s ease;
+    transition: all 8s ease;
     overflow: hidden;
 }
 
@@ -12,7 +12,7 @@
     padding: 0;
     padding-bottom: 680px;
     position: relative;
-    background-image: url(./pngwing.com.png);
+    background-image: url(../images/pngwing.com.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,9 +21,11 @@
     width: 200px;
     margin-top: 100px;
     margin-left: 100px;
+    padding: 10px 15px;
     border-radius: 25px;
     color: white;
     background-color: darkcyan;
+    animation: brath 3s linear infinite;
 }
 
 .plane{
@@ -250,7 +252,7 @@
     position: absolute;
     z-index: 6;
     top: 530px;
-    right: -480px;
+    right: -3380px;
 }
 
 .car2{
@@ -259,7 +261,7 @@
     position: absolute;
     z-index: 5;
     top: 470px;
-    right: -480px;
+    right: -3380px;
 }
 
 .car3{
@@ -268,7 +270,7 @@
     position: absolute;
     z-index: 4;
     top: 450px;
-    right: -400px;
+    right: -3300px;
     
 }
 
@@ -278,7 +280,7 @@
     position: absolute;
     z-index: 3;
     top: 440px;
-    right: -355px;
+    right: -3255px;
 }
 
 .car5{
@@ -287,7 +289,7 @@
     position: absolute;
     z-index: 3;
     top: 530px;
-    right: -1155px;
+    right: -4055px;
 }
 
 
@@ -297,7 +299,7 @@
     position: absolute;
     z-index: 3;
     top: 470px;
-    right: -1080px;
+    right: -3980px;
 }
 
 
@@ -307,7 +309,7 @@
     position: absolute;
     z-index: 3;
     top: 450px;
-    right: -1020px;
+    right: -3920px;
 }
 
 
@@ -317,7 +319,7 @@
     position: absolute;
     z-index: 3;
     top: 440px;
-    right: -955px;
+    right: -3855px;
 }
 
 
@@ -376,21 +378,21 @@
 .d-block2{
     display: block;
     right: 2550px;
-    top: 510px;
+    top: 520px;
     width: 320px;
     height: 120px;
 }
 .d-block3{
     display: block;
     right: 2600px;
-    top: 490px;
+    top: 510px;
     width: 320px;
     height: 120px;
 }
 .d-block4{
     display: block;
     right: 2650px;
-    top: 470px;
+    top: 500px;
     width: 320px;
     height: 120px;
 }

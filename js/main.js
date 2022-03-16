@@ -33,14 +33,20 @@ var record = new webkitSpeechRecognition();
 
 record.lang = "en-US"
 
-record.onend = function(){
-  console.log("===== Aloqa tugadi =====");
-}
+// record.onend = function(){
+//   console.log("===== Aloqa tugadi =====");
+// }
 
 
-record.onerror = function(){
-  console.log("===== Xatolik yuz berdi =====");
-}
+// record.onerror = function(){
+//   console.log("===== Xatolik yuz berdi =====");
+// }
+
+var audio = document.querySelector(".audio");
+
+elBtnRec.addEventListener("click", function(){
+  audio.play()
+})
 
 record.onresult = function(evt){
 
@@ -52,9 +58,44 @@ record.onresult = function(evt){
 //   elItem.textContent = 1+ command
 //   elList.appendChild(elItem)
 
-    if(command == "yellow"){
+// var music = new Audio('adf.wav');
+// music.play();
+// music.loop =true;
+// music.playbackRate = 2;
+// music.pause();qqazszdgfbgtyj
+
+
+
+
+var audio2 = document.querySelector(".audio2");
+var audio3 = document.querySelector(".audio3");
+var audio4 = document.querySelector(".audio4");
+
+// const source = audioContext.createMediaElementSource(element);
+// source.connect(audioContext.destination)
+// audio.play();
+
+
+    if(command == "start"){
+
+      audio2.play()
       
       plane.classList.toggle("d-plane")
+
+        car.classList.toggle("ds-block")
+        car2.classList.toggle("ds-block2")
+        car3.classList.toggle("ds-block3")
+        car4.classList.toggle("ds-block4")
+        car5.classList.toggle("ds-block5")
+        car6.classList.toggle("ds-block6")
+        car7.classList.toggle("ds-block7")
+        car8.classList.toggle("ds-block8")
+        
+    }
+
+    if(command == "ready"){
+
+      audio3.play()
 
       red.classList.add("not-red")
       red2.classList.add("not-red")
@@ -67,26 +108,19 @@ record.onresult = function(evt){
       yellow3.classList.add("yellow3")
       yellow4.classList.add("yellow4")
       yellow5.classList.add("yellow5")
-      
 
-        car.classList.toggle("ds-block")
-        car2.classList.toggle("ds-block2")
-        car3.classList.toggle("ds-block3")
-        car4.classList.toggle("ds-block4")
-        car5.classList.toggle("ds-block5")
-        car6.classList.toggle("ds-block6")
-        car7.classList.toggle("ds-block7")
-        car8.classList.toggle("ds-block8")
-        
+
     }
     
-    else if(command == "go"){
+    if(command == "go"){
 
-      yellow.classList.add("block-yellow")
-      yellow2.classList.add("block-yellow")
-      yellow3.classList.add("block-yellow")
-      yellow4.classList.add("block-yellow")
-      yellow5.classList.add("block-yellow")
+      audio4.play();
+
+      yellow.classList.remove("yellow")
+      yellow2.classList.remove("yellow2")
+      yellow3.classList.remove("yellow3")
+      yellow4.classList.remove("yellow4")
+      yellow5.classList.remove("yellow5")
 
       green.classList.add("block-green")
       green2.classList.add("block-green2")
