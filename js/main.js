@@ -1,4 +1,23 @@
 var elBtnRec = document.querySelector(".btn-rec");
+
+var red = document.querySelector(".red");
+var red2 = document.querySelector(".red2");
+var red3 = document.querySelector(".red3");
+var red4 = document.querySelector(".red4");
+var red5 = document.querySelector(".red5");
+
+var yellow = document.querySelector(".block-yellow");
+var yellow2 = document.querySelector(".block-yellow2");
+var yellow3 = document.querySelector(".block-yellow3");
+var yellow4 = document.querySelector(".block-yellow4");
+var yellow5 = document.querySelector(".block-yellow5");
+
+var green = document.querySelector(".green");
+var green2 = document.querySelector(".green2");
+var green3 = document.querySelector(".green3");
+var green4 = document.querySelector(".green4");
+var green5 = document.querySelector(".green5");
+
 var car = document.querySelector(".car");
 var car2 = document.querySelector(".car2");
 var car3 = document.querySelector(".car3");
@@ -33,20 +52,60 @@ record.onresult = function(evt){
 //   elItem.textContent = 1+ command
 //   elList.appendChild(elItem)
 
-    if(command == "go"){
-        car.classList.toggle("d-block")
-        car2.classList.toggle("d-block2")
-        car3.classList.toggle("d-block3")
-        car4.classList.toggle("d-block4")
-        car5.classList.toggle("d-block5")
-        car6.classList.toggle("d-block6")
-        car7.classList.toggle("d-block7")
-        car8.classList.toggle("d-block8")
+    if(command == "yellow"){
+      
+      plane.classList.toggle("d-plane")
 
-        plane.classList.toggle("d-plane")
-    }else{
-      alert("say go!!!")
+      red.classList.add("not-red")
+      red2.classList.add("not-red")
+      red3.classList.add("not-red")
+      red4.classList.add("not-red")
+      red5.classList.add("not-red")
+
+      yellow.classList.add("yellow")
+      yellow2.classList.add("yellow2")
+      yellow3.classList.add("yellow3")
+      yellow4.classList.add("yellow4")
+      yellow5.classList.add("yellow5")
+      
+
+        car.classList.toggle("ds-block")
+        car2.classList.toggle("ds-block2")
+        car3.classList.toggle("ds-block3")
+        car4.classList.toggle("ds-block4")
+        car5.classList.toggle("ds-block5")
+        car6.classList.toggle("ds-block6")
+        car7.classList.toggle("ds-block7")
+        car8.classList.toggle("ds-block8")
+        
     }
+    
+    else if(command == "go"){
+
+      yellow.classList.add("block-yellow")
+      yellow2.classList.add("block-yellow")
+      yellow3.classList.add("block-yellow")
+      yellow4.classList.add("block-yellow")
+      yellow5.classList.add("block-yellow")
+
+      green.classList.add("block-green")
+      green2.classList.add("block-green2")
+      green3.classList.add("block-green3")
+      green4.classList.add("block-green4")
+      green5.classList.add("block-green5")
+
+
+      car.classList.toggle("d-block")
+      car2.classList.toggle("d-block2")
+      car3.classList.toggle("d-block3")
+      car4.classList.toggle("d-block4")
+      car5.classList.toggle("d-block5")
+      car6.classList.toggle("d-block6")
+      car7.classList.toggle("d-block7")
+      car8.classList.toggle("d-block8")
+
+  } 
+  
 
 }
 

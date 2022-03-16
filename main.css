@@ -39,6 +39,202 @@
     left: 1880px;
  }
 
+ .red{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    z-index: 3;
+    top: 310px;
+    left: 281px;
+ }
+ .red2{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    z-index: 3;
+    top: 325px;
+    left: 339px;
+ }
+ .red3{
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    z-index: 3;
+    top: 296px;
+    left: 215px;
+ }
+ .red4{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 3;
+    top: 280px;
+    left: 137px;
+ }
+ .red5{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    z-index: 3;
+    top: 260px;
+    left: 40px;
+ }
+
+ .not-red{
+     transition: 0ms;
+     width: 0;
+     height: 0;
+ }
+
+
+
+
+
+
+
+
+.block-yellow{
+    width: 0;
+    transition: 0ms;
+ }
+
+ .block-yellow2{
+    width: 0;
+    transition: 0ms;
+ }
+
+ .block-yellow3{
+    width: 0;
+    transition: 0ms;
+ }
+
+ .block-yellow4{
+    width: 0;
+    transition: 0ms;
+ }
+
+ .block-yellow5{
+    width: 0;
+    transition: 0ms;
+ }
+
+ .yellow{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    z-index: 3;
+    top: 330px;
+    left: 283px;
+ }
+ .yellow2{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    z-index: 3;
+    top: 342px;
+    left: 341px;
+ }
+ .yellow3{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    z-index: 3;
+    top: 316px;
+    left: 218px;
+ }
+ .yellow4{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    z-index: 3;
+    top: 301px;
+    left: 139px;
+ }
+ .yellow5{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 3;
+    top: 283px;
+    left: 42px;
+ }
+
+ 
+
+
+
+
+
+
+ .green{
+    display: none;
+ }
+ .green2{
+    display: none;
+ }
+ .green3{
+    display: none;
+ }
+ .green4{
+    display: none;
+ }
+ .green5{
+    display: none;
+ }
+
+ .block-green{
+     display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    z-index: 3;
+    top: 348px;
+    left: 284px;
+ }
+ .block-green2{
+     display: block;
+    width: 14px;
+    height: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 357px;
+    left: 342px;
+ }
+ .block-green3{
+     display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    z-index: 3;
+    top: 334px;
+    left: 219px;
+ }
+ .block-green4{
+     display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    z-index: 3;
+    top: 321px;
+    left: 141px;
+ }
+ .block-green5{
+     display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 3;
+    top: 305px;
+    left: 43px;
+ }
+
+
+
+
+
+
+
+
 .finish{
     width: 600px;
     height: 620px;
@@ -54,7 +250,7 @@
     position: absolute;
     z-index: 6;
     top: 530px;
-    right: -280px;
+    right: -480px;
 }
 
 .car2{
@@ -63,7 +259,7 @@
     position: absolute;
     z-index: 5;
     top: 470px;
-    right: -280px;
+    right: -480px;
 }
 
 .car3{
@@ -72,7 +268,7 @@
     position: absolute;
     z-index: 4;
     top: 450px;
-    right: -200px;
+    right: -400px;
     
 }
 
@@ -82,7 +278,7 @@
     position: absolute;
     z-index: 3;
     top: 440px;
-    right: -155px;
+    right: -355px;
 }
 
 .car5{
@@ -91,7 +287,7 @@
     position: absolute;
     z-index: 3;
     top: 530px;
-    right: -955px;
+    right: -1155px;
 }
 
 
@@ -101,7 +297,7 @@
     position: absolute;
     z-index: 3;
     top: 470px;
-    right: -880px;
+    right: -1080px;
 }
 
 
@@ -111,7 +307,7 @@
     position: absolute;
     z-index: 3;
     top: 450px;
-    right: -820px;
+    right: -1020px;
 }
 
 
@@ -121,8 +317,53 @@
     position: absolute;
     z-index: 3;
     top: 440px;
+    right: -955px;
+}
+
+
+
+
+
+.ds-block{
+    right: -280px;
+}
+
+.ds-block2{
+    right: -280px;
+}
+
+.ds-block3{
+    right: -200px;
+    
+}
+
+.ds-block4{
+    right: -155px;
+}
+
+.ds-block5{
+    right: -955px;
+}
+
+
+.ds-block6{
+    right: -880px;
+}
+
+
+.ds-block7{
+    right: -820px;
+}
+
+
+.ds-block8{
     right: -755px;
 }
+
+
+
+
+
 
 
 .d-block{
